@@ -1,0 +1,34 @@
+.app .container .pagination-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.app .container .pagination-btns li {
+    display: flex;
+}
+
+.app .container .pagination-btns a {
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #46a9dd;
+    color: #46a9dd;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.app .container .pagination-btns a:hover {
+    color: white;
+    background-color: #46a9dd;
+}
+
+.app .container .pagination-active a {
+    color: white;
+    background-color: #46a9dd;
+}
+
+.app .container .pagination .pagination-disabled a {
+    color: grey;
+    background-color: #EFEFEF;
+    outline: none;
+}

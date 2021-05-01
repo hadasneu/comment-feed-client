@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background-color: #EFEFEF;
+}
+
+.form .field {
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+}
+
+.form .field:focus {
+    outline: none;
+}
+
+.form .field.textarea {
+    height: 70px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.form .btn {
+    margin-left: auto;
+    padding: 6px 10px;
+    background-color: #46a9dd;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+    color: #c1c1c1;
+  }

@@ -1,0 +1,37 @@
+.modal-content {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 25px 25px 20px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    background-color: #cccbcb;
+}
+
+.modal-content .text-p:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+.modal-content .text-p:last-of-type {
+    margin-bottom: 25px;
+}
+
+.modal-content .text-p .emphasized {
+    font-weight: 700;
+}
+
+.modal-content .text-p .number {
+    font-size: 14px;
+}
+
+.modal-content .btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 10px;
+    background-color: #46a9dd;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
